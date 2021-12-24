@@ -3,12 +3,22 @@
 @tailwind utilities;
 
 html, body {
+  @apply font-body;
   min-height: 100vh;
   background-color: rgb(1, 75, 75);
   color: antiquewhite;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-headers;
 }
 
 #__layout {
   height: 100%;
+}
+
+.btn {
+  @apply px-4 py-2 rounded font-semibold bg-gray-200 text-black;
 }
