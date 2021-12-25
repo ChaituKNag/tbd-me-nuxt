@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:container md:mx-auto flex flex-col h-full px-4 py-3">
+  <div class="container max-w-full flex flex-col h-screen">
     <Header />
     
     <Main />

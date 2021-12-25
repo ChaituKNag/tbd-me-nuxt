@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-20">
+  <div class="xl:container mx-auto flex-1 px-4 py-3 max-w-xl">
   
   <h1 class="text-4xl font-semibold">Main Content</h1>
   
