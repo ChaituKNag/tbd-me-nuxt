@@ -1,5 +1,6 @@
 <template>
-  <div class="py-5 bg-gray-100 px-4">
-    &copy; 2021 - Naga Konada
-  </div>
+  <footer class="text-center py-10">
+    <p class="font-semibold text-xl">Come back soon.</p>
+    <p class="italic text-gray-500 pt-3">Yours - Naga.</p>
+  </footer>
 </template>
